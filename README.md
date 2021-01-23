@@ -98,4 +98,4 @@ Ergebnis: https://www.desmos.com/calculator/l8anciqj6b
 
 Bei einer Fahrleistung von 25 km lohnt es sich rein monetär also ein Auto zu nehmen, solange ich sie nicht länger als ca. 3,25 Stunden reserviere.
 Dabei legen wir wieder die Tarife von oben zu Grunde.
-
+Achtung: Der Plot reflektiert nicht die Mindestbuchdauer.
