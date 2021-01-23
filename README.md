@@ -99,3 +99,38 @@ Ergebnis: https://www.desmos.com/calculator/l8anciqj6b
 Bei einer Fahrleistung von 25 km lohnt es sich rein monetär also ein Auto zu nehmen, solange ich sie nicht länger als ca. 3,25 Stunden reserviere.
 Dabei legen wir wieder die Tarife von oben zu Grunde.
 Achtung: Der Plot reflektiert nicht die Mindestbuchdauer.
+
+## Wann lohnt sich ein eigenes Auto? [WIP]
+Soweit also zu den Rädern und Rollern. Für Gelegenheitsnutzer wie mich scheint es offensichtlich zu sein, dass sich der Besitz eines eigenen Autos nicht lohnt.
+Dies möchte ich jedoch mit Zahlen belegen.
+Hierzu müssen wir zunächst ermitteln, welche Angebote es für verschiedene Nutzungstypen gibt und welches jeweils das optimale Angebot nach Zeit und Strecke ist.
+
+**Angebotsname**|**Tarif**|**Preis / Kilometer [€]**|**Preis / Stunde [€]**|**Grundgebühr / Monat [€]**|**Anmeldegebühr einmalig [€]**|**Kaution**|**Annahmen**|**Hinweise**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Stadtteilauto|CarSharingPlus|0,23|2,75|0,00|0,00|0,00|Fahrzeugkategorie "Mini" (VW UP)| 
+Stadtteilauto|Basic|0,23|2,5|5|50|200|Fahrzeugkategorie "Mini" (VW UP)| 
+Stadtteilauto|Standard|0,23|1,9|8,5|50|200|Fahrzeugkategorie "Mini" (VW UP)|Kilometerpreis ab 101: 0,20€, ab 700: 0,07€ exl. Benzin
+Stadtteilauto|Komfort|0,23|1,6|15|50|200|Fahrzeugkategorie "Mini" (VW UP)|Kilometerpreis ab 101: 0,20€, ab 700: 0,07€ exl. Benzin
+Wuddi|Flex|0,28|2,4|0|20|0|Fahrzeugkategorie "Small" (Smart Fourtwo)|Komplettes Wochenende: 35€ + Kilometer, 2 Wochen: 99€
+Wuddi|Komfort|0,22|1,8|5|20|0|Fahrzeugkategorie "Small" (Smart Fourtwo)|Komplettes Wochenende: 35€ + Kilometer, 2 Wochen: 99€
+Wuddi|Abo|0*|0|229|149|0|Smart EQ Forfour|Strom nicht inklusive, 4-12 Monate Laufzeit, 4 Monate Kündigungsfrist, 850 km / Monat, +45€ je 400km mehr
+
+\*Strom nicht inklusive
+
+### Break Even Point VW Up
+Für eine erste Abschätzung machen wir zusätzliche Annahmen:
+Wir fahren jeweils nur Strecken <= 100km und weniger als 850km im Monat. Außerdem sind wir hauptsächlich innerstädtisch unterwegs. Um die Tarife leichter zu vergleichen nehmen wir eine Durchschnittsgeschwindigkeit von 40 km/h an, während das Fahrzeug bewegt wird (Quelle: https://www.adac.de/der-adac/aktuelles/studie-verkehrsfluss-in-staedten/). Wir gehen davon aus, dass die Fahrzeuge während der Buchungszeit zu 20% bewegt werden und 80% geparkt sind. Zu jedem gefahrenen Kilometer kommen demnach 0,13 Stunden Buchungszeit.
+
+Ein eigener VW Up kostet, wenn man alle Kosten wie Wartung, Werteverlust und Betrieb einrechnet, 387€ - 468€ pro Monat (Quelle: https://www.adac.de/infotestrat/autodatenbank/autokosten/autokosten-rechner/default.aspx), ohne die zeitlichen Aufwände zu berücksichtigen.
+
+Wie weit kommen wir also mit einem Budget von 400€ im Monat?
+
+**Angebotsname**|**Tarif**|**Komb. Preis / Kilometer**|**Kilometer im Zielbudget**
+:-----:|:-----:|:-----:|:-----:
+Stadtteilauto|CarSharingPlus|0,57|697
+Stadtteilauto|Basic|0,54|728
+Stadtteilauto|Standard|0,47|837
+Stadtteilauto|Komfort|0,43|895
+Wuddi|Flex|0,58|690
+Wuddi|Komfort|0,45|888
+Wuddi|Abo|TODO|TODO
