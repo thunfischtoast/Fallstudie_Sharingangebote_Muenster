@@ -13,7 +13,7 @@ Da das irgendwie nicht angehen kann wollte ich mich informieren, wie der aktuell
 Neutralitätshinweis: Ich hatte in der Vergangenheit beruflich bereits einmal sehr lose mit Tretty zu tun, mit diesem und den anderen Anbietern stehe ich heute teilweise in Kundenbeziehung.
 
 ## Übersicht Anbieter
-Also, was bietet sich mir, einem Innenstadtbewohner ohne eigenes Auto oder Stellplatz, der fast alle Strecken mit dem Rad zurücklegen kann und nur unregelmäßig ein Auto braucht,  für Möglichkeiten zur individuellen, geteilten Mobilität?
+Also, was bietet sich mir, einem Innenstadtbewohner ohne eigenem Auto oder Stellplatz, der fast alle Strecken mit dem Rad zurücklegen kann und nur unregelmäßig ein Auto braucht,  für Möglichkeiten zur individuellen, geteilten Mobilität?
 
 Ich führe erstmal die verschiedenen Anbieter mit jeweils dem Tarif auf, welcher vermutlich am besten zu mir passen und die in der Regel in meiner unmittelbaren Nachbarschaft spontan zur Verfügung stehen.
 
