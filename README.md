@@ -10,7 +10,7 @@ Die Motivation hierzu kam aus der Feststellung, dass ich in der vergangenen Woch
 Obwohl ich das Fahrrad kürzer genutzt und weniger Strecke gemacht habe war es teurer als das Auto.
 Da das irgendwie nicht angehen kann wollte ich mich informieren, wie der aktuelle Stand der verschiedenen Angebote ist.
 
-Ich habe weder professionell noch privat irgendwas mit den jeweiligen Anbietern zu tun.
+Neutralitätshinweis: Ich hatte in der Vergangenheit beruflich bereits einmal sehr lose mit Tretty zu tun, mit diesem und den anderen Anbietern stehe ich heute teilweise in Kundenbeziehung.
 
 ## Übersicht Anbieter
 Also, was bietet sich mir, einem Innenstadtbewohner ohne eigenes Auto oder Stellplatz, der fast alle Strecken mit dem Rad zurücklegen kann und nur unregelmäßig ein Auto braucht,  für Möglichkeiten zur individuellen, geteilten Mobilität?
@@ -27,7 +27,7 @@ Tier|Elektroroller|Freefloating|0,00|11,40|1,00|0,00|0,00| |
 Swapfiets|Fahrrad|Permanente Nutzung|0,00|0,00|0,00|16,90|19,50|Kategorie "Original"|Nur Abo
 
 Bei Anbietern mit festen Stationen muss man das Fahrzeug immer wieder dahin bringen, wo man es her hat.
-Für die gesamte Zeit zwischen Abholund und Abgabe zahlt man, auch wenn das Fahrzeug woanders geparkt ist.
+Für die gesamte Zeit zwischen Abholung und Abgabe zahlt man, auch wenn das Fahrzeug woanders geparkt ist.
 Bei Freefloating-Modellen können die Fahrzeuge überall (mit Einschränkungen) abgestellt und freigegeben werden.
 
 Ob und wann sich welches Verkehrsmittel lohnt hängt von vielen verschiedenen Parametern ab.
@@ -49,7 +49,7 @@ Wuddi|3,80
 Tretty (ohne Abgabe)|6,40
 Tretty (mit Abgabe)|3,80
 
-Selbst wenn ich also das Fahrrad zwischendurch abgeben (und damit riskiere, dass es mir jemand anders in der Zwischenzeit wegschnappt) ist es nicht günstiger als bequem mit dem Auto zu fahren.
+Selbst wenn ich also das Fahrrad zwischendurch abgebe (und damit riskiere, dass es mir jemand anders in der Zwischenzeit wegschnappt) ist es nicht günstiger als bequem mit dem Auto zu fahren.
 
 ## Fall 2: Der Besuch
 Ich besuche jemanden am Stadtrand.
@@ -85,14 +85,17 @@ Lime (Monatsabo)|3,17
 Tier (Tagespass)|0,79
 
 Die Zahlen für die Elektroroller sind niedriger, als ich es erwartet hätte.
-Für die Einbeziehung der Auto-Anbieter wird die Betrachtung komplizierter, da wir hier zwei Parameter varrieren können: Die gebuchte Zeit und die gefahrenen Kilometer. 
+Für die Einbeziehung der Auto-Anbieter wird die Betrachtung komplizierter, da wir hier zwei Parameter variieren können: Die gebuchte Zeit und die gefahrenen Kilometer. 
 Wir stellen uns die Frage, wie weit/lange wir mit den Autos fahren können, bevor wir die Kosten eines Tretty-Monatsabos von 14,99€ erreicht haben.
-Wir lösen die Gleichung Kilometerkosten x gefahrene Kilometer + Stundenkosten x gebuchte Zeit = 14,99 und bekommen pro Anbieter eine Kurve.
+Wir lösen die Gleichung `Kilometerkosten x gefahrene Kilometer + Stundenkosten x gebuchte Zeit = 14,99` und bekommen pro Anbieter eine Kurve.
+
 Stadtteilauto: https://www.wolframalpha.com/input/?i=0.23y%2B2.75x%3D14.99
+
 Wuddi: https://www.wolframalpha.com/input/?i=0.28y%2B2.4x%3D14.99
 
 Ergebnis: https://www.desmos.com/calculator/l8anciqj6b
 ![https://www.desmos.com/calculator/l8anciqj6b](desmos-graph.png)
 
 Bei einer Fahrleistung von 25 km lohnt es sich rein monetär also ein Auto zu nehmen, solange ich sie nicht länger als ca. 3,25 Stunden reserviere.
+Dabei legen wir wieder die Tarife von oben zu Grunde.
 
