@@ -119,7 +119,7 @@ Wuddi|Abo|0*|0|229|149|0|Smart EQ Forfour|Strom nicht inklusive, 4-12 Monate Lau
 
 ### Break Even Point VW Up
 Für eine erste Abschätzung machen wir zusätzliche Annahmen:
-Wir fahren jeweils nur Strecken <= 100km und weniger als 850km im Monat. Außerdem sind wir hauptsächlich innerstädtisch unterwegs. Um die Tarife leichter zu vergleichen nehmen wir eine Durchschnittsgeschwindigkeit von 40 km/h an, während das Fahrzeug bewegt wird (Quelle: https://www.adac.de/der-adac/aktuelles/studie-verkehrsfluss-in-staedten/). Wir gehen davon aus, dass die Fahrzeuge während der Buchungszeit zu 20% bewegt werden und 80% geparkt sind. Zu jedem gefahrenen Kilometer kommen demnach 0,13 Stunden Buchungszeit.
+Wir fahren jeweils nur Strecken <= 100km und weniger als 850km im Monat. Außerdem sind wir hauptsächlich innerstädtisch unterwegs. Um die Tarife leichter zu vergleichen nehmen wir eine Durchschnittsgeschwindigkeit von 40 km/h an, während das Fahrzeug bewegt wird (Quelle: https://www.adac.de/der-adac/aktuelles/studie-verkehrsfluss-in-staedten/). Wir gehen davon aus, dass die Fahrzeuge während der Buchungszeit zu 20% bewegt werden und 80% geparkt sind. Zu jedem gefahrenen Kilometer kommen demnach 0,13 Stunden Buchungszeit. Zum Vergleich: In den vergangen 2 Jahren meiner Nutzung eines Carsharingdienstes habe ich im Mittelwert über 50 Fahrten 0,155 Stunden pro gefahrenen Kilometer bezahlt.
 
 Ein eigener VW Up kostet, wenn man alle Kosten wie Wartung, Werteverlust und Betrieb einrechnet, 387€ - 468€ pro Monat (Quelle: https://www.adac.de/infotestrat/autodatenbank/autokosten/autokosten-rechner/default.aspx), ohne die zeitlichen Aufwände zu berücksichtigen.
 
