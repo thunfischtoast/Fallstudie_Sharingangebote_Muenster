@@ -121,7 +121,7 @@ Wuddi|Abo|0*|0|229|149|0|Smart EQ Forfour|Strom nicht inklusive, 4-12 Monate Lau
 Für eine erste Abschätzung machen wir zusätzliche Annahmen:
 Wir fahren jeweils nur Strecken <= 100km und weniger als 850km im Monat. Außerdem sind wir hauptsächlich innerstädtisch unterwegs. Um die Tarife leichter zu vergleichen nehmen wir eine Durchschnittsgeschwindigkeit von 40 km/h an, während das Fahrzeug bewegt wird (Quelle: https://www.adac.de/der-adac/aktuelles/studie-verkehrsfluss-in-staedten/). Wir gehen davon aus, dass die Fahrzeuge während der Buchungszeit zu 20% bewegt werden und 80% geparkt sind. Zu jedem gefahrenen Kilometer kommen demnach 0,13 Stunden Buchungszeit. Zum Vergleich: In den vergangen 2 Jahren meiner Nutzung eines Carsharingdienstes habe ich im Mittelwert über 50 Fahrten 0,155 Stunden pro gefahrenen Kilometer bezahlt.
 
-Ein eigener VW Up kostet, wenn man alle Kosten wie Wartung, Werteverlust und Betrieb einrechnet, 387€ - 468€ pro Monat (Quelle: https://www.adac.de/infotestrat/autodatenbank/autokosten/autokosten-rechner/default.aspx), ohne die zeitlichen Aufwände zu berücksichtigen.
+Ein eigener VW Up kostet, wenn man alle Kosten wie Wartung, Werteverlust und Betrieb einrechnet, 387€ - 468€ pro Monat (Quelle: https://www.adac.de/infotestrat/autodatenbank/autokosten/autokosten-rechner/default.aspx), ohne die zeitlichen Aufwände zu berücksichtigen. Ein Smart fortwo liegt laut ADAC zwischen 371€ und 469€. Gehen wir von einem Schätzwert von 400€ aus.
 
 Wie weit kommen wir also mit einem Budget von 400€ im Monat?
 
@@ -133,4 +133,23 @@ Stadtteilauto|Standard|0,47|837
 Stadtteilauto|Komfort|0,43|895
 Wuddi|Flex|0,58|690
 Wuddi|Komfort|0,45|888
-Wuddi|Abo|TODO|TODO
+
+Hat man den Luxus zwischen den beiden Anbietern wählen zu können hängt der optimale Tarif von dem persönlichen Nutzungsprofil ab. Wir berechnen den günstigsten Tarif (weiterhin jeweils für die billigste Fahrzeugklasse) und tragen diese in ein Zeit-Strecken-Diagramm ein. Die Farbe der jeweiligen Fläche gibt den jeweils besten Tarif an:
+
+![](combined.png?raw=true)
+
+Das S_ in der Legende steht für einen Stadtteilauto-Tarif, das W_ für einen Wuddi-Tarif. Man kann demnach beispielsweise bequem einen Kleinwagen von Stadtteilauto 120 Stunden im Monat buchen und dabei immernoch um die 800 Kilometer fahren, bevor der Break-Even zum eigenen Fahrzeug kommt.
+
+Hinweis: Wir vereinfachen hier stark. Der günstigere Kilometertarif für Einzelfahrten über 100 Kilometer bei Stadtteilauto findet genauso wenig Beachtung wie die Tatsache, dass wir unterschiedliche Fahrzeuge miteinander vergleichen oder bei Wuddi Spartarife für bestimmte Zeiträume (z.B. ein Wochenende) existieren.
+
+### Beispiele für weitere Fahrzeuge
+Ein Vorteil des Carsharings liegt darin, dass man sich jewils ein für die Fahrt passendes Auto aussuchen kann. Der Kleinstwagen reicht locker, um sich selbst und normale Einkäufe oder 2-3 weiter Personen zu befördern. Falls man sich durch den Kauf eines eigenen Fahrzeugs auf eine bestimmte Klasse festlegen muss möchten wir in der Regel dann auf Nummer sicher gehen und kaufen uns für den Fall der Fälle dann doch einen Kombi, um für den Großeinkauf vor Weihnachten oder die Urlaubsfahrt nach Österreich gerüstet zu sein. Wir wiederholen die vorherige Betrachtung deshalb - verkürzt - für weitere Fahrzeuge.
+
+*Kompaktklasse* - am Beispiel von Opel Corsa 6/F
+Komplettmonatspreis laut ADAC: 445€ - 579€, nehmen wir 500€ an.
+
+TODO: tabelle hier
+
+*Kombiklasse* - am Beispiel von VW Golf Variant 7
+
+TODO: tabelle hier
