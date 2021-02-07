@@ -3,7 +3,7 @@ Eine kleine Momentaufnahme zum Thema Sharingangebote in Münster (Westf.)
 
 ## Vorwort
 Dies ist eine kleine Zusammenstellung von Daten zu diversen Mobilitäts-Sharing-Angeboten in Münster (Westfl.).
-Alle Daten sind von mir persönlich aus öffentlich verfügbaren Quellen am 23.01.2021 zusammengetragen worden.
+Alle Daten sind von mir persönlich aus öffentlich verfügbaren Quellen am 07.02.2021 zusammengetragen worden.
 Es besteht keine Garantie auf Richtigkeit.
 
 Die Motivation hierzu kam aus der Feststellung, dass ich in der vergangenen Woche zwei Angebote genutzt habe: Ein Auto von Wuddi und ein Fahrrad von Tretty.
@@ -184,6 +184,14 @@ Zur tage- und wochenweisen Miete von Fahrrädern finden sich weitere Anbieter, z
 Die beiden wahrscheinlich größten und bekanntesten Bikesharing-Anbieter "Call a bike" (auch Deutsche Bahn) sowie "nextbike" fehlen derzeit noch in Münster.
 
 Die Stadt plant außerdem ein öffentliches Leihradsystem mit "5000 Mieträdern in fast 300 Stationen" ([die Westfälischen Nachrichten berichteten](https://www.wn.de/Muenster/4201036-Schwarz-Gruen-faellt-Grundsatzbeschluss-zum-Bike-Sharing-Oeffentliches-Leihradsystem-ist-auf-dem-Weg)).
+
+In Münsters Süden wird derzeit unter der Marke LOOPmünster der Nahverkehr auf Bestellung getestet.
+
+# Abschluss
+Das Thema ist aus meiner Sicht zu facettenreich, um es würdig in einem oder zwei Sätzen zusammenfassen zu können.
+Das Fazit für mich persönlich ist, dass ich glücklicherweise kein eigenes Auto brauche (Dinge nicht zu besitzen finde ich auch irgendwie schön).
+Ich hoffe, dass sich der Sharing-Gedanke weiter durchsetzt und dazu beiträgt, die Innenstadt wieder stärker auf die Menschen und weniger auf die Maschinen auszurichten.
+Die Verwunderung, warum das gesharte Auto, in bestimmten Fällen, günstiger ist als das gesharte Rad bleibt.
 
 ## Abschließende Hinweise
 Die Berechnungen, welche ich hier benutzt habe, sowie der Code zur Erstellung der Plots stehen auf https://github.com/thunfischtoast/Fallstudie_Sharingangebote_Muenster zur Verfügung.
