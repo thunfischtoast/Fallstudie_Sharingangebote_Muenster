@@ -100,7 +100,7 @@ Bei einer Fahrleistung von 25 km lohnt es sich rein monetär also ein Auto zu ne
 Dabei legen wir wieder die Tarife von oben zu Grunde.
 Achtung: Der Plot reflektiert nicht die Mindestbuchdauer.
 
-## Wann lohnt sich ein eigenes Auto? [WIP]
+## Wann lohnt sich ein eigenes Auto?
 Soweit also zu den Rädern und Rollern. Für Gelegenheitsnutzer wie mich scheint es offensichtlich zu sein, dass sich der Besitz eines eigenen Autos nicht lohnt.
 Dies möchte ich jedoch mit Zahlen belegen.
 Hierzu müssen wir zunächst ermitteln, welche Angebote es für verschiedene Nutzungstypen gibt und welches jeweils das optimale Angebot nach Zeit und Strecke ist.
@@ -116,6 +116,9 @@ Wuddi|Komfort|0,22|1,8|5|20|0|Fahrzeugkategorie "Small" (Smart Fourtwo)|Komplett
 Wuddi|Abo|0*|0|229|149|0|Smart EQ Forfour|Strom nicht inklusive, 4-12 Monate Laufzeit, 4 Monate Kündigungsfrist, 850 km / Monat, +45€ je 400km mehr
 
 \*Strom nicht inklusive
+
+Das Abo von Wuddi lasse ich außen vor, da ich in meiner Nachbarschaft keine Möglichkeit hätte, das Elektrofahrzeug zu laden (und auch keine Lust habe, immer einen Parkplatz zu suchen. Der Charme der Sharingfahrzeuge liegt auch darin, dass ich 
+einen Parkplatz reserviert habe).
 
 ### Break Even Point VW Up
 Für eine erste Abschätzung machen wir zusätzliche Annahmen:
@@ -134,22 +137,56 @@ Stadtteilauto|Komfort|0,43|895
 Wuddi|Flex|0,58|690
 Wuddi|Komfort|0,45|888
 
+Der Komb. Preis / Kilometer ist der Kilometerpreis + (Stundenpreis * 0,13).
+
 Hat man den Luxus zwischen den beiden Anbietern wählen zu können hängt der optimale Tarif von dem persönlichen Nutzungsprofil ab. Wir berechnen den günstigsten Tarif (weiterhin jeweils für die billigste Fahrzeugklasse) und tragen diese in ein Zeit-Strecken-Diagramm ein. Die Farbe der jeweiligen Fläche gibt den jeweils besten Tarif an:
 
 ![](combined.png?raw=true)
 
-Das S_ in der Legende steht für einen Stadtteilauto-Tarif, das W_ für einen Wuddi-Tarif. Man kann demnach beispielsweise bequem einen Kleinwagen von Stadtteilauto 120 Stunden im Monat buchen und dabei immernoch um die 800 Kilometer fahren, bevor der Break-Even zum eigenen Fahrzeug kommt.
+Das S_ in der Legende steht für einen Stadtteilauto-Tarif, das W_ für einen Wuddi-Tarif. Der graue Bereich markiert, ab wann sich ein eigenes Auto lohnt. Man kann demnach beispielsweise bequem einen Kleinwagen von Stadtteilauto 120 Stunden im Monat buchen und dabei immernoch um die 800 Kilometer fahren, bevor der Break-Even zum eigenen Auto kommt. 
 
-Hinweis: Wir vereinfachen hier stark. Der günstigere Kilometertarif für Einzelfahrten über 100 Kilometer bei Stadtteilauto findet genauso wenig Beachtung wie die Tatsache, dass wir unterschiedliche Fahrzeuge miteinander vergleichen oder bei Wuddi Spartarife für bestimmte Zeiträume (z.B. ein Wochenende) existieren.
+Hinweis: Wir vereinfachen hier stark. Der günstigere Kilometertarif für Einzelfahrten über 100 Kilometer bei Stadtteilauto findet genauso wenig Beachtung wie die Tatsache, dass wir unterschiedliche Fahrzeuge miteinander vergleichen oder Spartarife für bestimmte Zeiträume (z.B. ein Wochenende oder zwischen 0 und 6 Uhr) existieren.
 
-### Beispiele für weitere Fahrzeuge
+## Beispiele für weitere Fahrzeuge
 Ein Vorteil des Carsharings liegt darin, dass man sich jewils ein für die Fahrt passendes Auto aussuchen kann. Der Kleinstwagen reicht locker, um sich selbst und normale Einkäufe oder 2-3 weiter Personen zu befördern. Falls man sich durch den Kauf eines eigenen Fahrzeugs auf eine bestimmte Klasse festlegen muss möchten wir in der Regel dann auf Nummer sicher gehen und kaufen uns für den Fall der Fälle dann doch einen Kombi, um für den Großeinkauf vor Weihnachten oder die Urlaubsfahrt nach Österreich gerüstet zu sein. Wir wiederholen die vorherige Betrachtung deshalb - verkürzt - für weitere Fahrzeuge.
 
-*Kompaktklasse* - am Beispiel von Opel Corsa 6/F
+### Kompaktklasse - am Beispiel von Opel Corsa 6/F
 Komplettmonatspreis laut ADAC: 445€ - 579€, nehmen wir 500€ an.
 
-TODO: tabelle hier
+**Angebotsname**|**Tarif**|**Preis / Kilometer [€]**|**Preis / Stunde [€]**|**Komb. Preis / Kilometer**|**Grundgebühr / Monat [€]**|**Kilometer im Zielbudget**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Stadtteilauto|CarSharingPlus|0,26|3,00|0,65|0,00|769
+Stadtteilauto|Basic|0,26|2,75|0,62|5,00|802
+Stadtteilauto|Standard|0,26|2,10|0,53|8,50|922
+Stadtteilauto|Komfort|0,26|1,90|0,51|15,00|957
 
-*Kombiklasse* - am Beispiel von VW Golf Variant 7
+### Kombiklasse - am Beispiel von VW Golf Variant VIII
+Komplettmonatspreis laut ADAC: 547€ - 702€, nehmen wir 600€ an.
 
-TODO: tabelle hier
+**Angebotsname**|**Tarif**|**Preis / Kilometer [€]**|**Preis / Stunde [€]**|**Komb. Preis / Kilometer**|**Grundgebühr / Monat [€]**|**Kilometer im Zielbudget**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Stadtteilauto|CarSharingPlus|0,29|3,50|0,75|0,00|805
+Stadtteilauto|Basic|0,29|3,25|0,71|5,00|835
+Stadtteilauto|Standard|0,29|2,75|0,65|8,50|914
+Stadtteilauto|Komfort|0,29|2,40|0,60|15,00|972
+
+## Weitere Sharing-Angebote
+Um die Komplexität beherrschbar zu halten habe ich die Anzahl der Anbieter eingeschränkt. Je nach persönlichem Anwendungsfall (und Wohnort) gibt es aber noch mehr:
+
+Der ADFC Münsterland e.V. bietet unter https://lastenrad-ms.de/ Lastenräder zur kostenlosen Leihe an.
+
+Die Deutsche Bahn bietet unter der Marke Flinkster am Hauptbahnhof sowie einer weiteren Station in Handorf insgesamt fünf Autos zur Buchung an. Die Preise bewegen sich aktuell zwischen 1,50€ - 1,90€ pro Stunde und einer Kilometerpauschale von 0,25€.
+
+Stadtteilauto bietet neben Autos auch Lastenräder zur Miete an, aktuell am Hauptbahnhof sowie an ihrer Geschäftstelle an der Mondstraße.
+
+Zur tage- und wochenweisen Miete von Fahrrädern finden sich weitere Anbieter, z.B. die Radstation am Hauptbahnhof.
+
+Die beiden wahrscheinlich größten und bekanntesten Bikesharing-Anbieter "Call a bike" (auch Deutsche Bahn) sowie "nextbike" fehlen derzeit noch in Münster.
+
+Die Stadt plant außerdem ein öffentliches Leihradsystem mit "5000 Mieträdern in fast 300 Stationen" ([die Westfälischen Nachrichten berichteten](https://www.wn.de/Muenster/4201036-Schwarz-Gruen-faellt-Grundsatzbeschluss-zum-Bike-Sharing-Oeffentliches-Leihradsystem-ist-auf-dem-Weg)).
+
+## Abschließende Hinweise
+Die Berechnungen, welche ich hier benutzt habe, sowie der Code zur Erstellung der Plots stehen auf https://github.com/thunfischtoast/Fallstudie_Sharingangebote_Muenster zur Verfügung.
+
+## Über den Autor
+Christian ist Master der Informatik und beschäftigt sich seit mehreren Jahren als Spezialist für Data Science mit der Suche nach interessanten Erkenntnissen aus komplexen Datenhaufen. Bei Code for Münster hat er z.B. an der Analyse der Verkehrsunfallstatistiken für Münster (https://crashes.codeformuenster.org/) oder der Visualisierung von kommunalen Klimaschutzbemühungen (https://klimawatch.de/) mitgewirkt.
